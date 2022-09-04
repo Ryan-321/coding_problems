@@ -1,7 +1,7 @@
 const assert = require("assert").strict;
 
 const bunyan = require('bunyan');
-const log = bunyan.createLogger({name: 'selection'});
+const log = bunyan.createLogger({name: 'selection-logger'});
 
 /**
  * Steps:
